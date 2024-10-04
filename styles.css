@@ -55,9 +55,12 @@ h4 {
 }
 
 p {
+  text-align: left;
+  
     font-size: 16pt;
     font-family: "Libre Baskerville", serif;
     line-height:150%
+    
 }
 
 
@@ -73,9 +76,11 @@ a {
 }
 
 ul {
+    text-align: left;
     font-size: 16pt;
     font-weight: bold;
   margin-right: 500px
+  
  
 }
 
