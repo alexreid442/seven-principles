@@ -1,5 +1,5 @@
 body {
-    background-color: #2f4f4f;
+    background-color: #001816;
     color: #fff1de;
     max-width: 800px;
 margin-left: auto;
@@ -9,17 +9,18 @@ font-family: "Montserrat", sans-serif;
 
 em {
     color: #fff1de;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight:lighter
     font-style italic;
     display: block;
     text-align: center;
+    margin: 30px;
 }
     
 
 
 h1 {
-    font-size: 45pt;
+    font-size: 60pt;
     line-height: 100%;
     color: #d1d988;
 
@@ -30,31 +31,31 @@ h2 {
     font-weight: 600;
     font-size: 20pt;
     line-height: 140%;   
-  
     padding: 24pt; 
     margin: 24pt;
     border: 5pt solid #d1d988;
-   border-radius: 16pt;
-
+   border-radius: 16px;
+   
+   
 }
 
-span {
-    color: black;
-}
+
+
+
 
 h3 {
     color: #d1d988;
-    font-size: 20pt  
+    font-size: 40pt  
     
 }
 
 h4 {
-    font-size: 20pt;
+    font-size: 30pt;
     color: #d1d988;
 }
 
 p {
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: "Libre Baskerville", serif;
     line-height:150%
 }
@@ -72,10 +73,10 @@ a {
 }
 
 ul {
-    font-size: 20pt;
-    color: #d1d988;
+    font-size: 16pt;
     font-weight: bold;
-  
+  margin-right: 500px
+ 
 }
 
 
@@ -83,7 +84,7 @@ ul {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 :root {
-  --bg: #2f4f4f;
+  --bg: #001816;
   --clr-1: #00c2ff;
   --clr-2: #33ff8c;
   --clr-3: #ffc640;
@@ -116,7 +117,7 @@ body {
 }
 
 .title {
-  font-size: var(--fs);
+  font: size 70pt;
   font-weight: 600;
   letter-spacing: var(--ls);
   position: relative;
